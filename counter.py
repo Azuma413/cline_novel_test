@@ -12,7 +12,7 @@ def count_characters(file_path):
 
 def main():
     # Get all .txt files in current directory and subdirectories
-    txt_files = glob.glob('**/*.txt', recursive=True)
+    txt_files = glob.glob('MainStory/*.txt', recursive=True)
     
     # Sort files for consistent output
     txt_files.sort()
